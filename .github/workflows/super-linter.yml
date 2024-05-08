@@ -26,6 +26,7 @@ jobs:
         uses: super-linter/super-linter@v6.0.0  # x-release-please-version
         env:
           DEFAULT_BRANCH: main
+          VALIDATE_TYPESCRIPT_ES: true
           VALIDATE_ALL_CODEBASE: false
           VALIDATE_CHECKOV: false
           # To report GitHub Actions status checks
